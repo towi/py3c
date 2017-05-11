@@ -48,7 +48,7 @@ not code deep in the internals.
 However, you can use a concept of **native strings**: a type that corresponds
 to the ``str`` type in Python: PyBytes on Python 2, and PyUnicode in Python 3.
 This is the type that you will need to return from functions like ``__str__``
-and ``__repr__.
+and ``__repr__``.
 
 Using the **native string** extensively is suitable for conservative projects:
 it affects the semantics under Python 2 as little as possible, while not
